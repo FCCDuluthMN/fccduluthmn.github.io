@@ -25,7 +25,7 @@ header {
 @media (min-width: 992px) {
   header {
     display: block;
-    top: 0px;
+    top: -10px;
     left: 0px;
     height: 455px;
     width: 90%;
