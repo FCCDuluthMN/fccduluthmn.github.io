@@ -51,7 +51,7 @@ nav li {
   float: left;
   height: 100%;
   margin: 0px;
-  padding: 10px 16px 100% 16px;
+  padding: 10px 16px 2px 16px;
 }
 
 nav li:hover {
