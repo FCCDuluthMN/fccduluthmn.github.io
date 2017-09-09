@@ -42,9 +42,9 @@ nav a {
 }
 
 nav li {
-  display: inline-block;
+  display: block;
   list-style-type: none;
-  //font-size: 20px;
+  font-size: 20px;
   font-weight: bold;
   float: left;
   height: 50px;
