@@ -26,15 +26,13 @@ nav {
   margin: 0px;
   padding: 0px;
 }
-
+/*
 nav ul {
   display: block;
   position: absolute;
   top: 0px;
   left: 65%;
   height: 100%;
-  margin: 0px;
-  padding: 0px;
 }
 
 nav a {
@@ -45,11 +43,12 @@ nav a {
 nav li {
   display: inline-block;
   list-style-type: none;
-  font-size: 14px;
+  font-size: 20px;
   font-weight: bold;
   float: left;
   height: 100%;
-  padding: 15px 15px 1px 15px;
+  margin: 0px;
+  padding: 15px;
 }
 
 nav li:hover {
