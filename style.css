@@ -9,13 +9,14 @@ html, body, div, span, a, li, td, th {
   font-family: 'Lato', sans-serif;
 }
 
-navbar {
+nav {
+  display: block;
   background-color: darkgreen;
   height: 50px;
 }
 
-navbar li {
-  display:inline-block;
+nav li {
+  display: inline-block;
   list-style-type: none;
   color: #ffffff;
 }
