@@ -32,15 +32,14 @@ nav ul {
   display: block;
   position: absolute;
   top: 0px;
-  left: 50%;
+  left: 25%;
+  width: 75%;
   height: 50px;
   line-height: 14px;
 }
 
 nav li {
   display: inline-block;
-  position: absolute;
-  top: 0px;
   list-style-type: none;
   font-size: 20px;
   font-weight: bold;
@@ -62,6 +61,8 @@ nav li:hover {
 #logo {
   position: absolute;
   top: 0px;
+  left: 10px;
+  width: 25%;
   height: 50px;
   float: left;
 }
