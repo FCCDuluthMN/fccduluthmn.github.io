@@ -60,10 +60,9 @@ nav li:hover {
   
 #logo {
   position: absolute;
-  top: 0px;
+  top: 5px;
   left: 10px;
-  width: 25%;
-  height: 50px;
+  height: 45px;
   float: left;
 }
 
