@@ -34,6 +34,13 @@ nav ul {
   top: 0px;
   left: 65%;
   height: 50px;
+  margin: 0px;
+  padding: 0px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #eeeeee;
 }
 
 nav li {
@@ -43,23 +50,18 @@ nav li {
   font-weight: bold;
   float: left;
   height: 50px;
-  padding-top: 15px;
+  padding: 15px 15px 0px 0px;
 }
 
-nav a {
-  text-decoration: none;
-  color: #eeeeee;
-}
-  
 nav li:hover {
-  background-color: #eeeeee;;
+  background-color: #eeeeee;
   color: darkgreen;
 }
   
 #logo {
   position: absolute;
   top: 10px;
-  left: 10px;
+  left: 24px;
   height: 40px;
   float: left;
 }
