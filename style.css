@@ -13,7 +13,7 @@ header h1 {
   display: block;
   position: relative;
   top: -175px;
-  left: 275px;
+  left: 175px;
   color: #eeeeee;
 }
 
@@ -45,11 +45,11 @@ nav a {
 nav li {
   display: inline-block;
   list-style-type: none;
-  
+  font-size: 14px;
   font-weight: bold;
   float: left;
   height: 100%;
-  padding: auto 15px auto 15px;
+  padding: 15px 15px 1px 15px;
 }
 
 nav li:hover {
