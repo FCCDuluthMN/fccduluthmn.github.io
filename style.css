@@ -34,6 +34,7 @@ nav ul {
   top: 0px;
   left: 65%;
   height: 50px;
+  background-color: orange;
 }
 
 nav a {
@@ -42,14 +43,14 @@ nav a {
 }
 
 nav li {
-  display: block;
+  display: inline-block;
   list-style-type: none;
-  font-size: 20px;
-  font-weight: bold;
+  //font-size: 20px;
+  //font-weight: bold;
   float: left;
   height: 50px;
   margin: 0px;
-  padding: 15px;
+  //padding: 0px;
 }
 
 nav li:hover {
