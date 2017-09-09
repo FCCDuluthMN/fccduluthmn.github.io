@@ -50,10 +50,12 @@ nav li {
   font-weight: bold;
   float: left;
   height: 50px;
-  padding: 15px 15px 0px 0px;
+  padding: 15px 15px 15px 0px;
 }
 
 nav li:hover {
+  height: 50px;
+  padding: 15px 15px 15px 0px;
   background-color: #eeeeee;
   color: darkgreen;
 }
