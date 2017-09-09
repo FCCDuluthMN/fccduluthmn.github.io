@@ -15,7 +15,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: top right;
-  background-size: auto 455px;
+  background-size: contain;
 }
 header {
   background-color: #eeeeee;
