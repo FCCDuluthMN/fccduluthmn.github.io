@@ -45,7 +45,6 @@ nav li a {
 }
 
 nav li a:hover {
-  display: inline-block;
   background-color: #eeeeee;
   color: darkgreen;
 }
