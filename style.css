@@ -17,7 +17,7 @@ body {
   background-position: top right;
 }
 header {
-
+  background-color: #eeeeee;
   opacity:0.8;
   width: 100%;
   margin: 0px;
@@ -46,6 +46,7 @@ header {
     left: 175px;
     color: darkgreen;
     text-shadow: 10px 10px 15px #eeeeee
+    opacity: 1.0;
   }
 
   nav {
