@@ -32,10 +32,8 @@ nav ul {
   display: block;
   position: absolute;
   top: 0px;
-  left: 25%;
-  width: 75%;
+  left: 65%;
   height: 50px;
-  line-height: 14px;
 }
 
 nav li {
@@ -45,7 +43,7 @@ nav li {
   font-weight: bold;
   float: left;
   height: 50px;
-  padding: 15px;
+  padding-top: 15px;
 }
 
 nav a {
