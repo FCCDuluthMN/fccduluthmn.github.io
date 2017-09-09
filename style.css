@@ -37,8 +37,13 @@ nav li {
   float: right;
   padding-left: 15px;
   padding-right: 15px;
+  text-decoration: none;
 }
 
+nav li:hover {
+  background-color: #eeeeee;
+  color: darkgreen;
+/*
 nav a {
   text-decoration: none;
   color: #eeeeee;
@@ -48,8 +53,11 @@ nav a:hover {
   background-color: #eeeeee;
   color: darkgreen;
 }
-
+*/
+  
 #logo {
+  position: relative;
+  top: -3px;
   float: left;
 }
 #logo a {
