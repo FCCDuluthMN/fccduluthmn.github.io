@@ -17,14 +17,14 @@ header h1 {
 }
 
 .class {
-  display: inline-block;
+  display: block;
   height: 50px;
+  float: left;
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 20px;
+  padding: 15px;
 }
-
-.class img {
-  margin: auto;
-}
-
 
 nav {
   display: block;
@@ -35,9 +35,21 @@ nav {
   height: 50px;
 }
 
+nav ul {
+  display: block;
+  float: right;
+  line-height: 14px;
+  text-align:center;
+  
+}
+
 nav li {
-  display: inline-block;
+  display: block;
+  float: left;
+  position: relative;
+  padding: 5px auto;
   list-style-type: none;
+  font-size: 14px;
   color: #ffffff;
   float: right;
 }
