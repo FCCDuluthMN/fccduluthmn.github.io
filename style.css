@@ -23,7 +23,7 @@ nav {
   background-color: darkgreen;
   width: 100%;
   height: 50px;
-  padding: 15px;
+  padding: auto;
 }
 
 nav li {
