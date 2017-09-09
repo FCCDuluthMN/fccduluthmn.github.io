@@ -15,8 +15,8 @@ header {
   background-image: url('fcc-banner.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: right bottom;
-  opacity:0.8;
+  background-position: top left;
+  opacity:0.4;
 }
 
 @media (max-width: 991px) {
