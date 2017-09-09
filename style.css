@@ -32,7 +32,15 @@ nav ul {
 
 nav li {
   display: inline-block;
+  position: relative;
+  top: -5px;
   list-style-type: none;
   font-size: 14px;
   color: #ffffff;
+  float: right;
+}
+nav li img {
+  position: relative;
+  top: 3px;
+  float: left;
 }
