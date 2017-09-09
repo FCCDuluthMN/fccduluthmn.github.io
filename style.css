@@ -34,6 +34,8 @@ nav ul {
   top: 0px;
   left: 65%;
   height: 40px;
+  margin: 0px;
+  padding: 0px;
 }
 
 nav a {
@@ -48,7 +50,7 @@ nav li {
   font-weight: bold;
   float: left;
   height: 40px;
-  padding: 15px 15px 0px 15px;
+  padding: 5px 15px 0px 15px;
 }
 
 nav li:hover {
