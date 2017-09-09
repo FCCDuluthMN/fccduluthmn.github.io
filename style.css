@@ -16,16 +16,6 @@ header h1 {
   left: 75px;
 }
 
-.class {
-  display: block;
-  height: 50px;
-  float: left;
-  font-size: 26px;
-  font-weight: bold;
-  line-height: 20px;
-  padding: 15px;
-}
-
 nav {
   display: block;
   position: absolute;
@@ -51,5 +41,4 @@ nav li {
   list-style-type: none;
   font-size: 14px;
   color: #ffffff;
-  float: right;
 }
