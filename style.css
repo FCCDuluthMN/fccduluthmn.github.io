@@ -37,10 +37,4 @@ nav li {
   list-style-type: none;
   font-size: 14px;
   color: #ffffff;
-  float: right;
-}
-nav li img {
-  position: relative;
-  top: 3px;
-  float: left;
 }
