@@ -27,17 +27,12 @@ nav {
 
 nav ul {
   display: block;
-  float: right;
   line-height: 14px;
   text-align:center;
-  
 }
 
 nav li {
-  display: block;
-  float: left;
-  position: relative;
-  padding: 5px auto;
+  display: inline-block;
   list-style-type: none;
   font-size: 14px;
   color: #ffffff;
