@@ -30,17 +30,19 @@ nav {
 
 nav ul {
   display: block;
+  position: absolute;
+  top: 0px;
+  height: 50px;
+  float: right;
   line-height: 14px;
 }
 
 nav li {
   display: inline-block;
-  position: absolute;
   list-style-type: none;
   font-size: 20px;
   font-weight: bold;
-  float: right;
-  top: 0px;
+  float: left;
   height: 50px;
 }
 
@@ -59,4 +61,8 @@ nav li:hover {
   top: 0px;
   height: 50px;
   float: left;
+}
+
+#logo:hover {
+  background-color: darkgreen;
 }
