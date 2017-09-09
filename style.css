@@ -2,6 +2,7 @@ html, body {
   margin: 0px;
   padding: 0px;
   height: 100%;
+  width: 100%;
   font-size: 100%;
 }
 
@@ -14,7 +15,7 @@ header {
   background-image: url('fcc-banner.jpg');
   background-repeat: no-repeat;
   background-position: right bottom;
-  opacity:0.6;
+  opacity:0.8;
 }
 
 @media (max-width: 991px) {
