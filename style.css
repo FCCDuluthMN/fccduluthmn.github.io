@@ -10,7 +10,7 @@ html, body, div, span, a, li, td, th {
   font-family: 'Lato', sans-serif;
 }
 body {
-  background-color: yellow;
+  background-color: #eeeeee;
   background-image: url('fcc-banner.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -18,7 +18,7 @@ body {
 }
 header {
 
-  opacity:0.4;
+  opacity:0.8;
   width: 100%;
   margin: 0px;
   padding: 0px;
