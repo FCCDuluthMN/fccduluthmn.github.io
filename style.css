@@ -36,8 +36,7 @@ nav ul {
   height: 100%;
   margin: 0px;
   padding: 0px;
-  
-  background-color: orange;
+  //background-color: orange;
 }
 
 nav a {
@@ -46,12 +45,12 @@ nav a {
 }
 
 nav li {
-  display: inline-block;
+  display: block;
   list-style-type: none;
-  //font-size: 20px;
-  //font-weight: bold;
+  font-size: 18px;
+  font-weight: bold;
   float: left;
-  height: 50px;
+  height: 100%;
   margin: 0px;
   //padding: 0px;
 }
