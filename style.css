@@ -15,6 +15,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: top right;
+  background-size: auto 455px;
 }
 header {
   background-color: #eeeeee;
@@ -35,8 +36,10 @@ header {
 @media (min-width: 992px) {
   header {
     display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
     height: 455px;
-    background-size: auto 455px;
   }
   
   h1 {
@@ -45,7 +48,7 @@ header {
     top: 26px;
     left: 175px;
     color: darkgreen;
-    text-shadow: 10px 10px 15px #eeeeee
+    text-shadow: 10px 10px 15px #eeeeee;
     opacity: 1.0;
   }
 
@@ -104,5 +107,11 @@ header {
 
   #logo:hover {
     background-color: darkgreen;
+  }
+  
+  #container {
+    padding: 24px;
+    width: 100%;
+    background-color: white;
   }
 }
