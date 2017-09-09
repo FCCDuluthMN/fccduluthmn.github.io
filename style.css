@@ -14,17 +14,18 @@ header {
   background-image: url('fcc-banner.jpg');
   background-repeat: no-repeat;
   background-position: right bottom;
-  //background-attachment: fixed;
-  opacity:0.6;
 }
+
 @media (max-width: 991px) {
   
 }
 @media (min-width: 992px) {
   header {
     display: block;
-    height: 445px;
+    height: 455px;
     width: 100%;
+    margin: 0px;
+    padding: 0px;
     
   }
   
