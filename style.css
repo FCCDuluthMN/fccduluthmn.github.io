@@ -13,12 +13,13 @@ header h1 {
   display: block;
   position: relative;
   top: -75px;
+  left: 75px;
 }
 
 nav {
   display: block;
-  position: relative;
-  top: -50px;
+  position: absolute;
+  top: 455px;
   background-color: darkgreen;
   height: 50px;
 }
