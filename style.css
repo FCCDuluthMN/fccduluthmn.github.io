@@ -9,14 +9,19 @@ html, body {
 html, body, div, span, a, li, td, th {
   font-family: 'Lato', sans-serif;
 }
-
-header {
+body {
   background-color: yellow;
   background-image: url('fcc-banner.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: top right;
+}
+header {
+
   opacity:0.4;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
 }
 
 @media (max-width: 991px) {
@@ -25,19 +30,14 @@ header {
 @media (min-width: 992px) {
   header {
     display: block;
-    top: -50px;
-    left: 0px;
     height: 455px;
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
     background-size: auto 455px;
   }
   
   h1 {
     display: block;
     position: relative;
-    top: -256px;
+    top: 26px;
     left: 175px;
     color: darkgreen;
     text-shadow: 10px 10px 15px #eeeeee
