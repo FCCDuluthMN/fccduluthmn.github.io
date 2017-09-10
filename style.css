@@ -25,13 +25,13 @@ header {
   margin: 0px;
   padding: 0px;
   background-color: #eeeeee;
-  opacity:0.8;
+  opacity:0.4;
 }
 
 h1 {
   display: block;
   position: relative;
-  top: 250px;
+  top: 225px;
   font-size: 72px;
   color: darkgreen;
   text-align: center;
