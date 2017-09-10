@@ -22,7 +22,7 @@ body {
   background-image: url('fcc-banner.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: top right;
+  background-position: top center;
   background-size: 100%;
 }
 
