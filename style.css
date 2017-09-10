@@ -3,12 +3,21 @@ html, body {
   padding: 0px;
   height: 100%;
   width: 100%;
+  background-color: #eeeeee;
   font-size: 100%;
+  
 }
 
 html, body, div, span, a, li, td, th {
   font-family: 'Lato', sans-serif;
 }
+
+h1 {
+  color: darkgreen;
+  text-shadow: 10px 10px 15px #eeeeee;
+  opacity: 1.0;
+}
+
 body {
   background-color: #eeeeee;
   background-image: url('fcc-banner.jpg');
@@ -17,22 +26,42 @@ body {
   background-position: top right;
   background-size: contain;
 }
+
 header {
-  background-color: #eeeeee;
   opacity:0.8;
   width: 100%;
   margin: 0px;
   padding: 0px;
 }
 
-#container {
-  width: 100%;
+nav {
+  background-color: darkgreen;
 }
 
-@media (max-width: 991px) {
+nav a {
+  text-decoration: none;
+  color: #eeeeee;
+}
+
+nav li:hover {
+  background-color: #eeeeee;
+  color: darkgreen;
+}
+
+/*#logo:hover {
+  background-color: darkgreen;
+}*/
+
+#container {
+  background-color: white;
+}
+
+@media (max-width: 991px) { //mobile
   
 }
-@media (min-width: 992px) {
+
+@media (min-width: 992px) { //desktop
+  
   header {
     display: block;
     position: absolute;
@@ -48,9 +77,6 @@ header {
     top: 26px;
     left: 175px;
     font-size: 72px;
-    color: darkgreen;
-    text-shadow: 10px 10px 15px #eeeeee;
-    opacity: 1.0;
   }
 
   nav {
@@ -61,7 +87,6 @@ header {
     height: 50px;
     margin: 0px;
     padding: 0px;
-    background-color: darkgreen;
   }
 
   nav ul {
@@ -72,11 +97,6 @@ header {
     height: 100%;
     margin: 0px;
     padding: 0px;
-  }
-
-  nav a {
-    text-decoration: none;
-    color: #eeeeee;
   }
 
   nav li {
@@ -90,12 +110,6 @@ header {
     padding-top: 12px; 
     padding-right: 16px; 
     padding-left: 16px;
-  
-  }
-
-  nav li:hover {
-    background-color: #eeeeee;
-    color: darkgreen;
   }
   
   #logo {
@@ -105,16 +119,12 @@ header {
     height: 40px;
     float: left;
   }
-
-  #logo:hover {
-    background-color: darkgreen;
-  }
   
   #container {
     position: absolute;
     top: 400px;
     padding: 24px;
     width: 100%;
-    background-color: white;
   }
+  
 }
