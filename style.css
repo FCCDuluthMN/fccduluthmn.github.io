@@ -59,8 +59,13 @@ nav li:hover {
   
 }
 
-@media (min-width: 992px) { //desktop
-  
+//desktop
+@media (min-width: 992px) { 
+  body {
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+  }
   header {
     display: block;
     position: absolute;
