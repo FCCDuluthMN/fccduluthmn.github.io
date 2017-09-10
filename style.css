@@ -1,9 +1,16 @@
 html, body {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
   margin: 0px;
   padding: 0px;
-  height: 100%;
-  width: 100%;
   background-color: #eeeeee;
+  background-position: top center;
+  background-image: url("fcc-banner.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   font-size: 100%;
 }
 
@@ -11,39 +18,69 @@ html, body, div, span, a, li, td, th {
   font-family: 'Lato', sans-serif;
 }
 
-body {
+header {
+  display: block;
   position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
   margin: 0px;
   padding: 0px;
-  background-position: top center;
-  background-image: url('fcc-banner.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 
 h1 {
+  display: block;
+  position: relative;
+  margin: auto;
   color: darkgreen;
-  text-shadow: 0px 0px 50px #eeeeee;
+  text-shadow: 0px 0px 20px #eeeeee;
   opacity: 1.0;
 }
 
-header {
-  opacity: 0.8;
-  width: 100%;
-  margin: 0px;
-  padding: 0px;
-}
-
 nav {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 50px;
   margin: 0px;
   padding: 0px;
-  width: 100%;
   background-color: darkgreen;
 }
 
+#logo {
+  position: absolute;
+  top: 10px;
+  left: 24px;
+  height: 40px;
+  float: left;
+}
+
+nav ul {
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 65%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
 nav a {
-  text-decoration: none;
   color: #eeeeee;
+  text-decoration: none;
+}
+
+nav li {
+  display: block;
+  list-style-type: none;
+  font-size: 18px;
+  font-weight: bold;
+  float: left;
+  height: 38px;
+  margin: 0px;
+  padding-top: 12px; 
+  padding-right: 16px; 
+  padding-left: 16px;
 }
 
 nav li:hover {
@@ -52,6 +89,10 @@ nav li:hover {
 }
 
 #container {
+  position: absolute;
+  left: 0px;
+  height: 100%;
+  padding: 24px;
   background-color: white;
 }
 
@@ -65,64 +106,21 @@ nav li:hover {
   body {
     background-size: 600px;
   }
+  
   header {
-    display: block;
-    position: absolute;
-    top: 0px;
-    left: 0px;
     height: 350px;
   }
   
   h1 {
-    display: block;
-    position: relative;
-    margin: auto;
     font-size: 72px;
   }
 
   nav {
-    display: block;
-    position: absolute;
     top: 350px;
-    height: 50px;
-    width: 600px;
-  }
-
-  nav ul {
-    display: block;
-    position: absolute;
-    top: 0px;
-    left: 65%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-  }
-
-  nav li {
-    display: block;
-    list-style-type: none;
-    font-size: 18px;
-    font-weight: bold;
-    float: left;
-    height: 38px;
-    margin: 0px;
-    padding-top: 12px; 
-    padding-right: 16px; 
-    padding-left: 16px;
-  }
-  
-  #logo {
-    position: absolute;
-    top: 10px;
-    left: 24px;
-    height: 40px;
-    float: left;
   }
   
   #container {
-    position: absolute;
     top: 400px;
-    padding: 24px;
     width: 600px;
   }
   
