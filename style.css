@@ -23,19 +23,17 @@ header {
   margin: 0px;
   padding: 0px;
 }
-/*
+
 h1 {
   display: block;
   position: relative;
   text-align: center;
-  /*
   top: 250px;
   font-size: 84px;
   color: white;
   text-shadow: 0px 0px 25px darkgreen;
-  */
 }
-*/
+
 nav {
   display: block;
   position: absolute;
@@ -123,14 +121,6 @@ section {
 @media (min-width: 992px)
 {
   
-  h1 {
-    display: block;
-    position: relative;
-    text-align: center;
-    top: 250px;
-    font-size: 84px;
-    color: white;
-    text-shadow: 0px 0px 25px darkgreen;
-  }
+  
   
 }
