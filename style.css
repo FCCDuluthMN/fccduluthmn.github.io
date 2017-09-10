@@ -22,7 +22,6 @@ header {
   height: 500px;
   margin: 0px;
   padding: 0px;
-  
 }
 
 h1 {
@@ -96,7 +95,7 @@ nav li:hover {
 }
 
 section {
-  width: 85%;
+  width: 80%;
   margin: 0px auto;
   padding: 24px;
   background-color: white;
