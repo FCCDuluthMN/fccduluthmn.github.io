@@ -53,7 +53,7 @@ nav {
   height: 40px;
   float: left;
 }
-
+/**
 nav ul {
   display: block;
   position: absolute;
@@ -62,6 +62,10 @@ nav ul {
   height: 100%;
   margin: 0px;
   padding: 0px;
+}
+**/
+nav ul {
+  display: none;
 }
 
 nav a {
@@ -99,4 +103,17 @@ section {
   margin: 0px auto;
   padding: 24px;
   background-color: white;
+}
+
+@media (min-width:992px)
+{
+    nav ul {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 65%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
 }
