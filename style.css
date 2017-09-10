@@ -44,6 +44,7 @@ nav {
   margin: 0px;
   padding: 0px;
   background-color: darkgreen;
+  z-index: 1;
 }
 
 #logo {
@@ -71,31 +72,13 @@ nav {
   background-color: #eeeeee;
 }
 
-nav ul {
-  display: none;
-}
-
 nav a {
   color: #eeeeee;
   text-decoration: none;
 }
 
-nav li {
-  display: block;
-  list-style-type: none;
-  font-size: 18px;
-  font-weight: bold;
-  float: left;
-  height: 38px;
-  margin: 0px;
-  padding-top: 12px; 
-  padding-right: 16px; 
-  padding-left: 16px;
-}
-
-nav li:hover {
-  background-color: #eeeeee;
-  color: darkgreen;
+nav ul {
+  display: none;
 }
 
 #container {
@@ -114,9 +97,11 @@ section {
 
 @media (min-width:992px)
 {
+
   header {
     height: 500px;
   }
+
   h1 {
     font-size: 72px;
   }
@@ -127,6 +112,24 @@ section {
 
   #menu_button {
     display: none;
+  }
+
+  nav li {
+    display: block;
+    list-style-type: none;
+    font-size: 18px;
+    font-weight: bold;
+    float: left;
+    height: 38px;
+    margin: 0px;
+    padding-top: 12px; 
+    padding-right: 16px; 
+    padding-left: 16px;
+  }
+  
+  nav li:hover {
+    background-color: #eeeeee;
+    color: darkgreen;
   }
   
   nav ul {
@@ -142,4 +145,5 @@ section {
   #container {
     top: 550px;
   }
+
 }
