@@ -57,11 +57,12 @@ nav {
 #menu_button {
   display: block;
   position: absolute;
-  top: 5px;
-  left: 85%;
+  top: 3px;
+  left: 80%;
   //height: 40px;
   margin: 2px;
-  padding: 5px;
+  padding: 7px;
+  font-size: 14px;
   border: 1px solid white;
   border-radius: 3px;
 }
