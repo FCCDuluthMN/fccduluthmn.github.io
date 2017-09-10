@@ -60,10 +60,10 @@ nav {
   top: 5px;
   left: 85%;
   //height: 40px;
-  margin: 3px;
-  padding: 3px;
+  margin: 2px;
+  padding: 5px;
   border: 1px solid white;
-  border-radius: 5px;
+  border-radius: 3px;
 }
 
 #menu_button:hover {
