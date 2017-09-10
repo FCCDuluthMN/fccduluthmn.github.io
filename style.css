@@ -91,7 +91,7 @@ nav li:hover {
 #container {
   position: absolute;
   left: 0px;
-  height: 100%;
+  width: 100%;
   padding: 24px;
   background-color: white;
 }
