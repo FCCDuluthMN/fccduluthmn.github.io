@@ -107,7 +107,11 @@ section {
 
 @media (min-width:992px)
 {
-    nav ul {
+  h1 {
+    font-size: 84px;
+  }
+  
+  nav ul {
     display: block;
     position: absolute;
     top: 0px;
