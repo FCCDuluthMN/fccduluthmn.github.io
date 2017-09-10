@@ -59,11 +59,16 @@ nav {
   position: absolute;
   top: 5px;
   left: 65%;
-  height: ;
+  height: 95%;
   margin: 3px;
   padding: 2px;
   border: 1px solid white;
   border-radius: 5px;
+}
+
+#menu_button:hover {
+  color: darkgreen;
+  background-color: #eeeeee;
 }
 
 nav ul {
