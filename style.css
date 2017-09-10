@@ -104,7 +104,8 @@ section {
 }
 
 //mobile
-@media (max-width: 991px;) { 
+@media (max-width: 991px)
+{ 
   
   h1 {
     top: 250px;
@@ -116,7 +117,8 @@ section {
 }
 
 //desktop
-@media (min-width: 992px;) {
+@media (min-width: 992px)
+{
   
   h1 {
     top: 250px;
