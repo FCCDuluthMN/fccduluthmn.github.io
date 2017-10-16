@@ -96,6 +96,10 @@ section {
   background-color: white;
 }
 
+li {
+  padding-top: 15px;
+}
+
 @media (min-width:992px)
 {
 
