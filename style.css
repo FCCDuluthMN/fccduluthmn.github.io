@@ -177,6 +177,10 @@ footer {
     padding: 0px;
   }
 
+  .hidden {
+    display: block;
+  }
+
   #container {
     top: 550px;
   }
