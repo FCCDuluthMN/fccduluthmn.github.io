@@ -38,6 +38,7 @@
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato" />
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <script type="text/javascript" src="script.js"></script>
     <title>freeCodeCamp(Duluth, MN);</title>
   </head>
   <body>
@@ -46,8 +47,8 @@
     </header>
     <nav>
       <a target="_blank" href="https://www.freecodecamp.org"><div id="logo"><img src="https://s3.amazonaws.com/freecodecamp/freecodecamp_logo.svg" alt="fCC logo" /></a></div>
-      <a href="#"><div id="menu_button">Menu</div></a>
-      <ul>
+      <a href="#"><div id="menu_button" onClick="toggle(document.getElementById('menu-bar'), 'hidden')">Menu</div></a>
+      <ul id="menu-bar" class="hidden">
         <a href="members.html"><li class="menu">Members</li></a>
         <a href="projects.html"><li class="menu">Projects</li></a>
         <a href="index.html"><li class="menu">Home</li></a>
@@ -57,7 +58,7 @@
       <section>
         <p>No events coming up. Check back later to see where we'll be. Join us!</p>
         <footer>
-          <p>freeCodeCamp logos and banner courtesy of <a target="_blank" href="https://www.freecodecamp.org/">freeCodeCamp.org</a>. All other content is the property of this page's author and available to the public via free and open source repositories host on <a target="_blank" href="https://www.github.com/">GitHub</a>.</p>
+          <p>freeCodeCamp logos and banner courtesy of <a target="_blank" href="https://www.freecodecamp.org/">freeCodeCamp.org</a>. All other content is the property of this page's author and available to the public via free and open source repositories hosted on <a target="_blank" href="https://www.github.com/">GitHub</a>.</p>
         </footer>
       </section>
     </div>
