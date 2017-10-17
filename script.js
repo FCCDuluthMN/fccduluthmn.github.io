@@ -1,5 +1,6 @@
 var hid = true;
 
+//functions for the menu bar disappearing trick
 function toggle(element, myClass) {
     if (hid) {
         removeClass(element, myClass);
